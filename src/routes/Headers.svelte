@@ -1,5 +1,6 @@
 <script lang="ts">
+    let {name} = $props()
 
 </script>
 
-<h1>Helo from header</h1>
+<h1>Helo from {name}</h1>
