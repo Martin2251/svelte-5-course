@@ -1,4 +1,6 @@
 <script lang="ts">
+
+    let named = $state('Scott')
     let {name}:{name:string} = $props()
 
 </script>
