@@ -4,3 +4,5 @@
 </script>
 
 <h1>Helo from {name}</h1>
+
+<h2>{name.replaceAll("t", "x")}</h2>
