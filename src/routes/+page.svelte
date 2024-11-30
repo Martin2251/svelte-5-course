@@ -1,7 +1,9 @@
 <script>
     import Headers from "./Headers.svelte";
+
+    let name="Martin";
 </script>
-<Headers name="martin"/>
+<Headers name={name}/>
 
 
 <style>
